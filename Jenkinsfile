@@ -4,14 +4,12 @@ pipeline {
     stages {
         stage('Hello world') {
             steps {
-                script {
-                    echo "This build is based on Jenkinsfile"
-                }
+                echo "This build is based on Jenkinsfile"
             }
         }
 		stage('Print env vars') {
             steps {
-                script {
+                withSonarQubeEnv('Local SonarQube') {
                     sh "env"
                 }
             }
