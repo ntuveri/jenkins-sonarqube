@@ -5,7 +5,14 @@ pipeline {
         stage('Hello world') {
             steps {
                 script {
-                    echo "Build based on Jenkinsfile"
+                    echo "This build is based on Jenkinsfile"
+                }
+            }
+        }
+		stage('Print env vars') {
+            steps {
+                script {
+                    sh "env"
                 }
             }
         }
