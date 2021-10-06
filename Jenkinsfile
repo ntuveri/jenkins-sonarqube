@@ -14,5 +14,12 @@ pipeline {
                 }
             }
         }
+        stage('SonarQube scanner') {
+            steps {
+                withSonarQubeEnv('Local SonarQube') {
+                    sh "./gradlew sonarqube"
+                }
+            }
+        }
     }
 }
