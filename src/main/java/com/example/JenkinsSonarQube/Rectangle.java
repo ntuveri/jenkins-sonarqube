@@ -8,10 +8,10 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class Rectangle {
-	private float width;
-	private float height;
+	private double width;
+	private double height;
 
-	public float getSurface() {
+	public double getSurface() {
 		return this.width * this.height;
 	}
 }
