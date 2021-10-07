@@ -1,4 +1,4 @@
-package com.example.JenkinsSonarQube;
+package com.example.jenkins_sonarqube;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

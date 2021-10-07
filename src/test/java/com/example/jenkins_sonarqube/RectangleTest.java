@@ -1,6 +1,5 @@
-package com.example.JenkinsSonarQube;
+package com.example.jenkins_sonarqube;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -15,7 +14,6 @@ class RectangleTest {
 	}
 
 	@Test
-	@Disabled("getSurface() method is not covered by tests")
 	void testGetSurface() {
 		double actual = new Rectangle(1.0, 2.0).getSurface();
 		double expected = 2.0;

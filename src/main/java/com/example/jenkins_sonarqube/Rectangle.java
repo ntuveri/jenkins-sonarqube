@@ -1,4 +1,4 @@
-package com.example.JenkinsSonarQube;
+package com.example.jenkins_sonarqube;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
