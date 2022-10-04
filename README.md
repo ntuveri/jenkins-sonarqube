@@ -1,5 +1,5 @@
 # Goal
-The goal is to explore the integration among Spring applications, Jenkins and SonarQube.
+The goal is to explore the integration between Spring applications, Jenkins and SonarQube.
 
 ## Gradle plugin
 The Spring application uses the SonarScanner Gradle plugin to scan source code and publish scan results to SonarQube server.
